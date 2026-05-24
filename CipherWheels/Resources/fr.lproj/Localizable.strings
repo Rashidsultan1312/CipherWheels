@@ -1,0 +1,132 @@
+"tab.wheel" = "Roue";
+"tab.encoder" = "Encodeur";
+"tab.histoire" = "Historique";
+"tab.lecons" = "Leçons";
+"tab.reglages" = "Réglages";
+
+"action.cancel" = "Annuler";
+"action.save" = "Enregistrer";
+"action.done" = "Fini";
+
+"cw.onb.skip" = "Passer";
+"cw.onb.next" = "Suivant";
+"cw.onb.start" = "Commencer";
+"cw.onb.1.title" = "Chiffrer comme à la Renaissance";
+"cw.onb.1.body" = "Deux disques concentriques, comme l'instrument d'Alberti. Vous tournez avec le doigt, vous lisez à l'extérieur.";
+"cw.onb.2.title" = "Quatre méthodes classiques";
+"cw.onb.2.body" = "César, Vigenère, Atbash, Polybe. Chacune avec son histoire et son exemple.";
+"cw.onb.3.title" = "Gardez vos messages";
+"cw.onb.3.body" = "Les vingt derniers messages restent ici, prêts à relire ou copier.";
+
+"cipher.kind" = "Chiffre";
+"cipher.dir" = "Sens";
+"cipher.dir.encode" = "Chiffrer";
+"cipher.dir.decode" = "Déchiffrer";
+
+"cipher.kind.caesar" = "César";
+"cipher.kind.caesar.sub" = "Décalage circulaire de l'alphabet";
+"cipher.kind.vigenere" = "Vigenère";
+"cipher.kind.vigenere.sub" = "Décalage variable selon une clé";
+"cipher.kind.atbash" = "Atbash";
+"cipher.kind.atbash.sub" = "Miroir A↔Z, B↔Y, C↔X…";
+"cipher.kind.polybius" = "Polybe";
+"cipher.kind.polybius.sub" = "Carré 5×5, chaque lettre en deux chiffres";
+
+"cipher.alpha.latinFR" = "Latin (FR)";
+"cipher.alpha.latinEN" = "Latin (EN)";
+
+"cipher.param.shift" = "Décalage";
+"cipher.param.shift.label" = "Lettres décalées";
+"cipher.param.key" = "Clé Vigenère";
+"cipher.param.key.placeholder" = "MARIE";
+"cipher.param.alphabet" = "Alphabet";
+
+"cipher.disc.hint.caesar" = "Tournez le disque intérieur. La lettre extérieure correspond à la lettre intérieure alignée.";
+"cipher.disc.hint.vigenere" = "Vigenère utilise une suite de décalages. Saisissez la clé sous le disque.";
+"cipher.disc.hint.mirror" = "Atbash retourne l'alphabet en miroir. Aucun paramètre nécessaire.";
+
+"cipher.source.title" = "Texte d'origine";
+"cipher.output.cipher" = "Texte chiffré";
+"cipher.output.plain" = "Texte en clair";
+"cipher.output.copy" = "Copier";
+"cipher.save" = "Enregistrer";
+"cipher.samples.title" = "Exemples prêts";
+
+"encoder.input" = "Texte";
+"encoder.output" = "Résultat";
+"encoder.copy" = "Copier";
+"encoder.save" = "Enregistrer";
+
+"histoire.empty.title" = "Aucun message enregistré";
+"histoire.empty.body" = "Chiffrez ou déchiffrez quelque chose, puis enregistrez-le pour le retrouver ici.";
+"histoire.filter.title" = "Filtrer par chiffre";
+"histoire.filter.all" = "Tous";
+"histoire.stat.saved" = "Enregistrés";
+"histoire.stat.kinds" = "Méthodes";
+
+"lesson.what" = "Comment ça marche";
+"lesson.example" = "Exemple";
+"lesson.who" = "Origine";
+
+"settings.section.preferences" = "Préférences";
+"settings.section.data" = "Données";
+"settings.section.about" = "À propos";
+"settings.appearance" = "Apparence";
+"settings.stats.history" = "Messages gardés";
+"settings.clear" = "Effacer l'historique";
+"settings.clear.confirm" = "Effacer tous les messages enregistrés ?";
+"settings.support" = "Écrire au support";
+"settings.privacy" = "Politique de confidentialité";
+"settings.version" = "Version";
+
+"appearance.system" = "Système";
+"appearance.dark" = "Sombre";
+"appearance.light" = "Clair";
+
+"support.subject" = "Demande au support";
+
+"cipher.lesson.caesar" = "Le chiffre de César déplace chaque lettre d'un nombre fixe de positions dans l'alphabet.";
+"cipher.lesson.vigenere" = "Vigenère répète une clé sur tout le message et applique un décalage différent à chaque lettre.";
+"cipher.lesson.atbash" = "Atbash, hérité de l'hébreu ancien, remplace simplement A par Z, B par Y et ainsi de suite.";
+"cipher.lesson.polybius" = "Le carré de Polybe traduit chaque lettre en deux chiffres : ligne et colonne d'une grille 5×5.";
+
+"cipher.inventor.caesar" = "Attribué à Jules César";
+"cipher.year.caesar" = "≈ 50 avant notre ère";
+"cipher.inventor.vigenere" = "Attribué à Blaise de Vigenère";
+"cipher.year.vigenere" = "1586";
+"cipher.inventor.atbash" = "Scribes hébreux anciens";
+"cipher.year.atbash" = "≈ 500 avant notre ère";
+"cipher.inventor.polybius" = "Polybe, historien grec";
+"cipher.year.polybius" = "IIe siècle avant notre ère";
+
+"lesson.caesar.body" = "Le chiffre de César est probablement le plus ancien chiffre par substitution encore connu. Chaque lettre du texte clair est remplacée par la lettre qui se trouve N positions plus loin dans l'alphabet, l'alphabet revenant à A après Z. Une fois N choisi, le même décalage s'applique à tout le message.";
+"lesson.caesar.example" = "Décalage 3 : « VENI VIDI VICI » devient « YHQL YLGL YLFL ». Pour déchiffrer, on recule de trois lettres au lieu d'avancer.";
+
+"lesson.vigenere.body" = "Vigenère est un chiffre poly-alphabétique : au lieu d'un décalage unique, on utilise une clé qu'on répète sur tout le texte. Chaque lettre de la clé indique le décalage à appliquer à la lettre correspondante du message. Le résultat résiste à l'analyse de fréquence simple.";
+"lesson.vigenere.example" = "Clé « MARIE », texte « RENDEZ VOUS A MINUIT » devient « DERLIL VOLI E EEHVMD ». Le décalage change à chaque lettre selon la clé.";
+
+"lesson.atbash.body" = "Atbash est un chiffre par substitution réflexive : on remplace chaque lettre par son symétrique dans l'alphabet. Le mot d'origine et son chiffre se neutralisent : appliquer Atbash deux fois redonne le texte clair. Aucune clé n'est nécessaire.";
+"lesson.atbash.example" = "« BABYLON » devient « YZYBOLM ». Réappliquer Atbash redonne « BABYLON ».";
+
+"lesson.polybius.body" = "Polybe disposait son alphabet dans une grille 5×5 (I et J partagent une case). Chaque lettre devient deux chiffres : sa ligne, puis sa colonne. C'est aussi la base d'autres chiffres plus complexes comme Nihilist ou ADFGVX.";
+"lesson.polybius.example" = "« H » se trouve en ligne 2 colonne 3, donc « 23 ». « HI » donne « 23 24 ».";
+
+"sample.caesar.basic" = "César décalage 3";
+"sample.caesar.rot13" = "ROT13";
+"sample.vigenere.marie" = "Vigenère avec MARIE";
+"sample.atbash.hebrew" = "Atbash hébraïque";
+"sample.polybius.classic" = "Polybe historique";
+"sample.vigenere.book" = "Vigenère avec ROUE";
+
+"sample.caesar.shift" = "Décalage %d";
+"sample.vigenere.key" = "Clé %@";
+
+"ladder.plain" = "EN CLAIR";
+"ladder.cipher" = "CHIFFRÉ";
+"ladder.example.caesar" = "La lettre %@ devient %@";
+"cipher.disc.hint.polybius" = "Chaque lettre devient ligne + colonne. H → 23.";
+
+"gate.welcome.title" = "Bienvenue";
+"gate.welcome.subtitle" = "Lisez l'avis de confidentialité, puis continuez.";
+"gate.privacy.agree" = "J'accepte la politique de confidentialité";
+"gate.privacy.continue" = "Continuer";
