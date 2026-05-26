@@ -11,12 +11,12 @@ workflows:
       xcode: latest
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.cipherwheels
+        bundle_identifier: com.cipherwheels.it
       vars:
-        BUNDLE_ID: "com.cipherwheels"
+        BUNDLE_ID: "com.cipherwheels.it"
         XCODE_PROJECT: "CipherWheels.xcodeproj"
         XCODE_SCHEME: "CipherWheels"
-        APP_STORE_APPLE_ID: "6772702236"
+        APP_STORE_APPLE_ID: "6773448007"
 
     scripts:
       - name: Set up code signing
